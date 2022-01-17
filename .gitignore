@@ -50,3 +50,26 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# xv6 projects binaries & asms
+*.asm
+*.d
+*.sym
+_*
+kernel
+user1
+userfs
+usertests
+*.img
+vectors.S
+bochsout.txt
+bootblock
+bootother
+bootother.out
+parport.out
+fmt
+mkfs
+test*
+Makefile.test
+entryother
+initcode
